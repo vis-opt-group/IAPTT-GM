@@ -6,9 +6,7 @@ In recent years, Bi-Level Optimization (BLO) techniques have received extensive 
 
 ## Dependencies
 You can simply run the following command automatically install the dependencies
-'''
-pip install -r requirement.txt
-'''
+'pip install -r requirement.txt '
 
 This code mainly requires the following:
 - Python 3.*
