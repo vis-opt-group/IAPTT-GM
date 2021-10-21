@@ -18,9 +18,9 @@ This code mainly requires the following:
 
 ###  Data Preparation
 
-You can download the  [Omniglot](https://github.com/brendenlake/omniglot), 
-[MiniImagenet](https://github.com/renmengye/few-shot-ssl-public/), [TieredImagenet](https://github.com/renmengye/few-shot-ssl-public/), 
-[Mnist](http://yann.lecun.com/exdb/mnist/) and FashionMnist dataset from the attached link, and put the dataset in the corresponding `/data/*` folder.
+You can download the  [omniglot](https://github.com/brendenlake/omniglot), 
+[miniimagenet](https://github.com/renmengye/few-shot-ssl-public/), [tieredimagenet](https://github.com/renmengye/few-shot-ssl-public/), 
+[mnist](http://yann.lecun.com/exdb/mnist/) and [fashionmnist](https://github.com/zalandoresearch/fashion-mnist) dataset from the attached link, and put the dataset in the corresponding `experiment/data/dataset_name` folder.
 
 ### Usage
 
@@ -36,3 +36,19 @@ Python  Numerical.py  # For the non-convex numerical examples.
 
 If you use IAPTT-GM for academic research, you are highly encouraged to cite the following paper:
 - Risheng Liu, Yaohua Liu, Shangzhi Zeng, Jin Zhang. ["Towards Gradient-based Bilevel Optimization with Non-convex Followers and Beyond"](https://arxiv.org/abs/2110.00455). NeurIPS, 2021.
+
+### License 
+
+MIT License
+
+Copyright (c) 2021 Vision Optimizaion Group
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
