@@ -156,6 +156,7 @@ def main():
 
                 f_list.append(loss_inner.detach().cpu().numpy())
                 f_opt.step(loss_inner)
+                fmodel.toy_y = lim(fmodel.toy_y,-2,2)
                 if not args.load:
                     with torch.no_grad():
                         loss_outer = model_x(fmodel.toy_y)
